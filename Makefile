@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.log
+targets:
+  default:
+    build: npm run build
+PORT=8080
+HOST=0.0.0.0
+LOG_LEVEL=info
